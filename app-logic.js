@@ -5,7 +5,7 @@ let bannerData = null;
 let bannerInterval = null;
 
 async function loadBannerData() {
-  const response = await fetch('/banner.json');
+  const response = await fetch('./banner.json');
   bannerData = await response.json();
   initializeBanner();
 }
@@ -54,7 +54,7 @@ async function loadAppDetails(appId) {
     return appCache.get(appId);
   }
   try {
-    const response = await fetch(`/apps/${appId}.json`);
+    const response = await fetch(`./apps/${appId}.json`);
     if (!response.ok) throw new Error('App details not found');
     const data = await response.json();
     appCache.set(appId, data);
