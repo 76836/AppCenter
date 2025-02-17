@@ -1,0 +1,71 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "title": "Akari AI",
+      "subtitle": "Your Personal Assistant",
+      "background": "https://76836.github.io/Akari/wallpapers/akari.jpg",
+      "textColor": "#ffffff",
+      "actions": [
+        {
+          "label": "Learn More",
+          "color": "#0071e3",
+          "script": "showAppDetails(1)"
+        },
+        {
+          "label": "Open",
+          "color": "#34c759",
+          "script": "window.location='https://76836.github.io/Akari'"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lunabot app.",
+      "subtitle": "Open lunabot seperately from discord for a faster than ever experience.",
+      "background": "https://76836.github.io/Akari/wallpapers/luna.png",
+      "textColor": "#ffffff",
+      "actions": [
+        {
+          "label": "Learn More",
+          "color": "#0071e3",
+          "script": "showAppDetails(2)"
+        },
+        {
+          "label": "Install Now",
+          "color": "#34c759",
+          "script": "document.querySelector('[data-app-id=\"2\"][data-action-label=\"Install App\"]').click()"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Animaxxer",
+      "subtitle": "An anime streaming service launcher for quick and easy access.",
+      "background": "https://76836.github.io/animaxxer/background.png",
+      "textColor": "#ffffff",
+      "actions": [
+        {
+          "label": "Learn More",
+          "color": "#0071e3",
+          "script": "showAppDetails(3)"
+        },
+        {
+          "label": "Install Now",
+          "color": "#34c759",
+          "script": "document.querySelector('[data-app-id=\"3\"][data-action-label=\"Install App\"]').click()"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Releasing soon:",
+      "subtitle": "Akari Digita, an all in one local AI platform made for <b><em>your</em></b> device.",
+      "background": "https://76836.github.io/Akari/wallpapers/backdrop.png",
+      "textColor": "#ffffff",
+      "actions": [
+      ]
+    }
+  ],
+  "rotationInterval": 5000
+}
