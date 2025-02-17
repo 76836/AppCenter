@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>76836 App Center</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="banner-section"></section>
+  
+  <header class="app-header">
+    <h1>76836 App Center</h1>
+    <div class="search-bar">
+      <input type="text" 
+             placeholder="Search apps..." 
+             id="searchInput"
+             aria-label="Search apps">
+      <button class="search-btn" aria-label="Search">🔍</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="app-grid" id="appGrid"></div>
+    <div class="no-results" id="noResults">
+      <h2>No apps found 😞</h2>
+      <p>Try adjusting your search terms</p>
+    </div>
+  </main>
+
+  <div class="app-modal" id="appModal" aria-modal="true" role="dialog">
+    <div class="modal-content">
+      <button class="close-btn" aria-label="Close">&times;</button>
+      <div class="modal-header">
+        <div class="header-icon"></div>
+        <div class="header-info">
+          <h1 class="app-title"></h1>
+          <p class="app-developer"></p>
+          <div class="header-actions"></div>
+        </div>
+      </div>
+      <div class="screenshots-container"></div>
+      <div class="app-description"></div>
+      <div class="technical-details"></div>
+    </div>
+    <div class="modal-overlay"></div>
+  </div>
+
+  <script src="app-data.js"></script>
+  <script src="app-logic.js"></script>
+</body>
+</html>
