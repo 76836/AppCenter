@@ -1,0 +1,34 @@
+{
+  "id": 3,
+  "name": "Animaxxer",
+  "developer": "76836",
+  "description": "Anime streaming service quick launcher, outlines unavailable sites in red.",
+  "category": "Utilities",
+  "icon": "https://raw.githubusercontent.com/76836/animaxxer/refs/heads/main/icon-512.png",
+  "screenshots": [
+    
+  ],
+  "actions": [
+    {
+      "label": "Launch PWA",
+      "color": "#0071e3",
+      "script": "window.open('https://76836.github.io/animaxxer', '_blank')"
+    },
+    {
+      "label": "Install App",
+      "color": "#34c759",
+      "script": "alert('Sorry, this feature is not available yet.');"
+    },
+    {
+      "label": "View Code",
+      "color": "#5856d6",
+      "script": "window.open('https://github.com/76836/animaxxer/tree/main', '_blank')"
+    }
+  ],
+  "technicalDetails": {
+    "size": "4 MB",
+    "updated": "Mid 2024",
+    "version": "3.2",
+    "requirements": "Internet access. (optional)"
+  }
+}
