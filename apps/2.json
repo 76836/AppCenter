@@ -4,7 +4,7 @@
   "developer": "76836",
   "description": "This (quite basic) PWA allows you to interact with Lunabot outside of Discord and use your own API key.",
   "category": "Utilities",
-  "icon": "https://raw.githubusercontent.com/76836/lunabot/app/refs/heads/main/logo-512.png",
+  "icon": "https://76836.github.io/lunabot/app/icon-512.png",
   "screenshots": [
     "https://76836.github.io/lunabot/app/Screen1.png",
     "https://76836.github.io/lunabot/app/Screen2.png",
@@ -32,7 +32,7 @@
   "technicalDetails": {
     "size": "0 MB",
     "updated": "March 9th, 2025",
-    "version": "2.3",
+    "version": "1",
     "requirements": "Gemini API key, compatible browser and internet connection."
   }
 }
