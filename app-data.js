@@ -10,5 +10,11 @@ const apps = [
     name: 'Lunabot',
     developer: '76836',
     category: 'Productivity'
+  },
+    {
+    id: 3,
+    name: 'Animaxxer',
+    developer: '76836',
+    category: 'Productivity'
   }
 ];
